@@ -12,11 +12,12 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "TestAnushaOrg"
 
     workspaces {
       name = "gh-actions-demo"
     }
+    token = "SEGRy0EFQ9UOmw.atlasv1.Ts6iRCWIPMscfQeCSGiQ509cjo7vhSQ56cHeI411nynSnSoqrDooBzIdhWekgMGm4sM"
   }
 }
 
