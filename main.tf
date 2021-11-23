@@ -17,6 +17,7 @@ terraform {
     workspaces {
       name = "gh-actions-demo"
     }
+    token = "SEGRy0EFQ9UOmw.atlasv1.Ts6iRCWIPMscfQeCSGiQ509cjo7vhSQ56cHeI411nynSnSoqrDooBzIdhWekgMGm4sM"
   }
 }
 
